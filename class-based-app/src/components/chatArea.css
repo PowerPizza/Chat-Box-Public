@@ -1,0 +1,10 @@
+.chat_area_body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    /* min-height: max-content; */
+    /* max-height: 100%; */
+    height: 100%;
+    overflow-y: auto;
+}

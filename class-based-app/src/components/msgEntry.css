@@ -1,0 +1,28 @@
+.msg_entry_body{
+    background-color: rgb(255, 242, 219);
+    border-top: 1px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.msg_entry_body .entry_msg{
+    font-size: 20px;
+    width: 100%;
+    min-height: 40px;
+    max-height: 100px;
+    overflow: auto;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px 0px gray;
+    background-color: white;
+}
+
+.msg_entry_body .send_button{
+    width: 40px;
+
+}

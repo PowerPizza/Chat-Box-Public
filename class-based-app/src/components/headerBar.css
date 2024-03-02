@@ -1,0 +1,27 @@
+.header_bar_body{
+    display: flex;
+    height: 70px;
+    background-color: rgb(47, 173, 182);
+    user-select: none;
+    align-items: center;
+}
+.header_bar_body p{
+    color: white;
+    font-size: 34px;
+    margin-left: 10px;
+}
+.header_bar_body .my_info{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5px;
+    height: 100%;
+    align-items: center;
+}
+.header_bar_body .info_btn{
+    background-color: transparent;
+    background-image: url('../icons/info_icon.svg');
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    border: none;
+}
