@@ -1,3 +1,3 @@
 [submodule "backend_submodule"]
-	path = backend_submodule
+	path = ./backend/
 	url = https://github.com/PowerPizza/Chat-Box.git
